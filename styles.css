@@ -1,0 +1,303 @@
+/* 
+    Document   : styles
+    Created on : 26-Feb-2013, 19:26:24
+    Author     : Lee
+    Description:
+        condition the index
+*/
+/*TEXTS*/
+.standardFont
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    ont-weight: 400;
+   font-style: normal;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    color: white;
+}
+.bigFont{
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: 'Source Sans Pro', sans-serif;
+    ont-weight: 400;
+   font-style: normal;
+    color: white;
+    font-size: larger;
+}
+.Small
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    color: white;
+    ont-weight: 300;
+   font-style: normal;
+}
+.redText{
+    color: red;
+}
+/*TEXTS*/
+root { 
+    display: block;
+}
+
+body{
+    line-height: 1.6em;
+   font-family: 'Source Sans Pro', sans-serif;
+   
+   font-weight: 400;
+   font-style: normal;
+       
+   color: white;
+
+    margin: 0 0 0 0;
+    
+    /*BACKGRUND GRADIENT*/
+    background: rgb(0,0,0); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ2JSIgc3RvcC1jb2xvcj0iI2FkMjAyMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUzJSIgc3RvcC1jb2xvcj0iI2FkMDAwMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+');
+background: -moz-linear-gradient(left,  rgba(0,0,0,1) 0%, rgba(173,32,32,1) 46%, rgba(173,0,2,1) 53%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,1)), color-stop(46%,rgba(173,32,32,1)), color-stop(53%,rgba(173,0,2,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(173,32,32,1) 46%,rgba(173,0,2,1) 53%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(173,32,32,1) 46%,rgba(173,0,2,1) 53%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(173,32,32,1) 46%,rgba(173,0,2,1) 53%,rgba(0,0,0,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(0,0,0,1) 0%,rgba(173,32,32,1) 46%,rgba(173,0,2,1) 53%,rgba(0,0,0,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 ); /* IE6-8 */
+    /*END*/
+}
+
+div#twitCont
+{
+    display: inline-block;  
+    padding: 3px;
+    border: thin solid white;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+
+div#wrapper
+{
+    width:85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    min-width: 1171px;
+}
+div#topper
+{
+    text-align:center;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+     /*Bump the bar up to cover photo*/
+        margin-bottom: -7px;
+    padding-bottom: 0;
+}
+div#navBar
+{
+   text-align: center;
+    width:100%;
+    background-color: black;
+    border: solid thin gray;
+}
+
+div#contWrapper/*This is set perfect for 
+               index avoid breaking*/
+{
+    margin-top: -6px;
+    background-color: black;
+    border: thin solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+-webkit-box-shadow: inset 0.1px 1px 15px 5px rgba(100, 100, 100, 1);
+        
+        box-shadow: inset 0.1px 1px 15px 5px rgba(100, 100, 100, 1);
+}
+div#indexGig
+{
+    vertical-align: top;
+    margin-left: 5%;
+    width: 40%;
+    display: inline-block;
+}
+div#info1
+{
+    text-align: justify;
+    display: inline-block;
+    padding: 10px;
+    width: 48%;
+    margin-bottom: 10px;
+    margin-left: 2%;
+}
+
+div#imgCont
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul
+{
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+ ul li
+ {
+     border-left: thin gray solid;
+     border-right: thin gray solid;
+     width: 8em;
+     margin: 0 2em 0 2em;
+     display: inline-block;
+     text-decoration: none;
+     list-style: none;
+ }
+ a
+ {
+     text-decoration: none;
+     
+ }
+ a img 
+ {
+     border:none;
+ }
+ 
+a:link    {color:inherit}
+a:visited {color:inherit}
+a:hover   
+{
+    color:inherit;
+    text-decoration: underline;
+    
+}
+a:active  {color:inherit}
+
+#indexGig table{
+    margin-left: 5%;
+    width: 100%;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    line-height: 1.3em;
+}
+div#innerTwit
+{
+    display: inline;
+    vertical-align:top;
+}
+div#fbtwit
+{
+    width:100%;
+    text-align: center;
+    display: inline-block;
+}
+div#demoInfo
+{
+    padding: 10px;
+    border: solid thin red;
+    border-radius:10px;
+    display: inline-block;
+    width:95%;
+}
+div#loaderDiv
+{
+    min-height: 523px;
+}
+
+div#spinner
+{
+    position: absolute;
+    z-index: -1;
+    text-align: center;
+    display: none;
+    width: 90%;  
+}
+div#contact
+{
+    text-align:center;
+}
+div#webform
+{
+    font-family:Arial;
+    font-size:medium;
+    background:Black;
+    border-radius:20px;
+    width:auto;
+    padding:15px;
+    display: inline-block;
+}
+div#webformtext
+{
+    display: inline-block;
+    width:250px;
+    vertical-align: top;
+    padding-right: 5%;
+    padding-top: 3%;
+        
+}
+
+input, textarea
+{
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: grey;
+    padding:4px;
+}
+div#Fees
+{
+    width: 78%;
+    margin-left: auto;  
+    margin-right: auto;
+}
+
+/*ABOUT*/
+div#aboutWrapper
+{
+    padding: 10px;
+}
+
+div#aboutHeader
+{
+    width: 60%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    margin-left: 5%;
+}
+div#songList
+{
+    width:50%;
+    display: inline-block;
+    text-align: justify;
+}
+div#buzzCont
+{
+    display: inline-block;
+    width:45%;
+}
+
+div#soundcloud1
+{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#buzzCont img
+{
+    width: 100%;
+}
+div#review
+{
+    display: inline-block;
+    width:60%;
+    margin-left: 20%;
+    text-align: center;
+    font-style: italic;
+     font-size: small;
+}
